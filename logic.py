@@ -98,3 +98,4 @@ class Fighter(Pokemon):
         return result + f'\nБоец приминил супер-атаку силой:{super_power}'
     def feed(self):
         return super().feed(feed_interval=12)
+
